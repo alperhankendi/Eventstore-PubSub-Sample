@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Sample-PubSub", "01-Sample-PubSub", "{764F2A68-DCAF-4BB3-98EC-82F309A3D61C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "publish-demo", "eventstore-pubsub-sample\publish-demo\publish-demo.csproj", "{5296DF64-5DF2-46F0-8300-B7F38ABEED86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscribe-demo", "eventstore-pubsub-sample\Subscribe-demo\Subscribe-demo.csproj", "{6ADD898A-E7CC-46C0-96E8-0F8E26FCDA53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-PersistantSubscription", "02-PersistantSubscription", "{376E9737-BC6A-4478-850D-02B632A60313}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersistentSubscription", "eventstore-persistantsubscription-sample\PersistentSubscription\PersistentSubscription.csproj", "{E3AA1F72-7889-421D-8935-F53035872624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WritingEvents", "eventstore-persistantsubscription-sample\WritingEvents\WritingEvents.csproj", "{1554A625-F150-493F-9ECE-751F4555426F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5296DF64-5DF2-46F0-8300-B7F38ABEED86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5296DF64-5DF2-46F0-8300-B7F38ABEED86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5296DF64-5DF2-46F0-8300-B7F38ABEED86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5296DF64-5DF2-46F0-8300-B7F38ABEED86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ADD898A-E7CC-46C0-96E8-0F8E26FCDA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ADD898A-E7CC-46C0-96E8-0F8E26FCDA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ADD898A-E7CC-46C0-96E8-0F8E26FCDA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ADD898A-E7CC-46C0-96E8-0F8E26FCDA53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3AA1F72-7889-421D-8935-F53035872624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3AA1F72-7889-421D-8935-F53035872624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3AA1F72-7889-421D-8935-F53035872624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3AA1F72-7889-421D-8935-F53035872624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1554A625-F150-493F-9ECE-751F4555426F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1554A625-F150-493F-9ECE-751F4555426F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1554A625-F150-493F-9ECE-751F4555426F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1554A625-F150-493F-9ECE-751F4555426F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5296DF64-5DF2-46F0-8300-B7F38ABEED86} = {764F2A68-DCAF-4BB3-98EC-82F309A3D61C}
+		{6ADD898A-E7CC-46C0-96E8-0F8E26FCDA53} = {764F2A68-DCAF-4BB3-98EC-82F309A3D61C}
+		{E3AA1F72-7889-421D-8935-F53035872624} = {376E9737-BC6A-4478-850D-02B632A60313}
+		{1554A625-F150-493F-9ECE-751F4555426F} = {376E9737-BC6A-4478-850D-02B632A60313}
+	EndGlobalSection
+EndGlobal
