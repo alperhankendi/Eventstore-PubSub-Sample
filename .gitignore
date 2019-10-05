@@ -6,3 +6,4 @@ eventstore-pubsub-sample/publish-demo/obj
 .DS_Store
 eventstore-persistantsubscription-sample/PersistentSubscription/obj
 eventstore-pubsub-sample/Subscribe-demo/obj
+Eventstore-samples.sln.DotSettings.user

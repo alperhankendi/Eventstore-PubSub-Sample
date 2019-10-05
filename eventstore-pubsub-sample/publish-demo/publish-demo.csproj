@@ -7,10 +7,10 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="EventStore.Client">
-      <Version>4.1.1</Version>
+      <Version>5.0.2</Version>
     </PackageReference>
     <PackageReference Include="Newtonsoft.Json">
-      <Version>12.0.1-beta1</Version>
+      <Version>12.0.2</Version>
     </PackageReference>
   </ItemGroup>
 </Project>
